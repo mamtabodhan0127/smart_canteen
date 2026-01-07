@@ -1,13 +1,13 @@
 // Food Menu
 let menu = [
   { name: "Samosa", price: 15, img: "61050397.avif" },
-  { name: "Vada Pav", price: 20, img: "},
-  { name: "Tea", price: 10 },
-  { name: "Coffee", price: 15 },
-  { name: "Sandwich", price: 40 },
-  { name: "Pav Bhaji", price: 50 },
-  { name: "Paneer Wrap", price: 60 },
-  { name: "Cold Drink", price: 25 }
+  { name: "Vada Pav", price: 20, img: "vada-pav-15.jpg"},
+  { name: "Tea", price: 10, img: ""},
+  { name: "Coffee", price: 15, img: "" },
+  { name: "Sandwich", price: 40, img: "" },
+  { name: "Pav Bhaji", price: 50, img: ""},
+  { name: "Paneer Wrap", price: 60, img: " "},
+  { name: "Cold Drink", price: 25, img: ""}
 ];
 
 let cart = [];
