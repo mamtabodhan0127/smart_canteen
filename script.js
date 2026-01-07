@@ -5,7 +5,7 @@ let menu = [
   { name: "Tea", price: 10, img: "tea-obsession.webp"},
   { name: "Coffee", price: 15, img: "espresso-feature--1200x900.webp" },
   { name: "Sandwich", price: 40, img: "sandwitch-chennai-fast-food-delivery-services-44jx9vznst.avif" },
-  { name: "Pav Bhaji", price: 50, img: ""},
+  { name: "Pav Bhaji", price: 50, img: "YFL-Pav-Bhaji-3.webp"},
   { name: "Paneer Wrap", price: 60, img: " "},
   { name: "Cold Drink", price: 25, img: ""}
 ];
