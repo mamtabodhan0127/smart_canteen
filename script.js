@@ -71,7 +71,7 @@ function addToCart(name, price) {
 function placeOrder() {
   document.getElementById("menuBox").style.display = "none";
   document.getElementById("billBox").style.display = "block";
-
+  const paymentValue = paymentType;
   const nameValue = document.getElementById("name").value;
   document.getElementById("qrBox").style.display = "none";
   const isParcel = document.getElementById("parcel").checked ? "Yes" : "No";
