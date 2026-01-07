@@ -40,8 +40,17 @@
     <input type="checkbox" id="parcel"> Parcel
   </label>
 
-  <button onclick="placeOrder()">Place Order</button>
+ <button onclick="handlePayment()">Proceed</button>
+
 </div>
+  <!-- UPI QR -->
+<div class="box" id="qrBox" style="display:none;">
+  <h2>Scan to Pay</h2>
+  <img src="upi-qr.png" width="200">
+  <p style="color:red;">⚠️ Demo QR – No real payment</p>
+  <button onclick="confirmUPIPayment()">I have paid</button>
+</div>
+
 
 <!-- Bill -->
 <div class="box" id="billBox" style="display:none;">
