@@ -39,19 +39,14 @@ button:hover {
 
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 15px;
 }
 
 .item {
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 8px;
-}
-.menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 15px;
 }
 
 .item img {
@@ -60,4 +55,3 @@ button:hover {
   object-fit: cover;
   border-radius: 8px;
 }
-
