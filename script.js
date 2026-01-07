@@ -29,16 +29,21 @@ function login() {
 function loadMenu() {
   let menuDiv = document.getElementById("menu");
   menuDiv.innerHTML = "";
+
   menu.forEach(item => {
     menuDiv.innerHTML += `
       <div class="item">
+        <img src="${item.img}" alt="${item.name}">
         <h4>${item.name}</h4>
         <p>₹${item.price}</p>
-        <button onclick="addToCart('${item.name}', ${item.price})">Add</button>
+        <button onclick="addToCart('${item.name}', ${item.price})">
+          Add
+        </button>
       </div>
     `;
   });
 }
+
 
 // Add to cart
 function addToCart(name, price) {
