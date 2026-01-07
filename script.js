@@ -73,7 +73,7 @@ function placeOrder() {
   document.getElementById("billBox").style.display = "block";
 
   const nameValue = document.getElementById("name").value;
-  const paymentValue = document.getElementById("payment").value;
+  document.getElementById("qrBox").style.display = "none";
   const isParcel = document.getElementById("parcel").checked ? "Yes" : "No";
 
   // Generate random bill number
