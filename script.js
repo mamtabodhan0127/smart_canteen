@@ -1,7 +1,7 @@
 // Food Menu
 let menu = [
-  { name: "Samosa", price: 15 },
-  { name: "Vada Pav", price: 20 },
+  { name: "Samosa", price: 15, img: "61050397.avif" },
+  { name: "Vada Pav", price: 20, img: "},
   { name: "Tea", price: 10 },
   { name: "Coffee", price: 15 },
   { name: "Sandwich", price: 40 },
