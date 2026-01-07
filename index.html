@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Canteen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍽 Smart Canteen</h1>
+
+<!-- Login -->
+<div class="box" id="loginBox">
+  <h2>Student Login</h2>
+  <input id="name" placeholder="Enter Name">
+  <button onclick="login()">Login</button>
+</div>
+
+<!-- Menu -->
+<div class="box" id="menuBox" style="display:none;">
+  <h2>Food Menu</h2>
+  <div class="menu-grid" id="menu"></div>
+
+  <h3>Your Cart</h3>
+  <ul id="cart"></ul>
+  <h3>Total: ₹<span id="total">0</span></h3>
+
+  <label>Payment</label>
+  <select id="payment">
+    <option>UPI</option>
+    <option>Cash</option>
+  </select>
+
+  <br>
+  <label>
+    <input type="checkbox" id="parcel"> Parcel
+  </label>
+
+  <button onclick="placeOrder()">Place Order</button>
+</div>
+
+<!-- Bill -->
+<div class="box" id="billBox" style="display:none;">
+  <h2>Bill</h2>
+  <div id="bill"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
