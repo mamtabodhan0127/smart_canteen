@@ -14,15 +14,29 @@ let cart = [];
 let total = 0;
 
 // Login function
+function register() {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  auth.createUserWithEmailAndPassword(email, password)
+    .then(() => {
+      alert("Registration successful");
+      login();
+    })
+    .catch(err => alert(err.message));
+}
+
 function login() {
-  const nameInput = document.getElementById("name").value;
-  if (nameInput === "") {
-    alert("Enter name");
-    return;
-  }
-  document.getElementById("loginBox").style.display = "none";
-  document.getElementById("menuBox").style.display = "block";
-  loadMenu();
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  auth.signInWithEmailAndPassword(email, password)
+    .then(() => {
+      document.getElementById("loginBox").style.display = "none";
+      document.getElementById("menuBox").style.display = "block";
+      loadMenu();
+    })
+    .catch(err => alert(err.message));
 }
 
 // Load menu items
