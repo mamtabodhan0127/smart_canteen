@@ -3,7 +3,7 @@ let menu = [
   { name: "Samosa", price: 15, img: "61050397.avif" },
   { name: "Vada Pav", price: 20, img: "vada-pav-15.jpg"},
   { name: "Tea", price: 10, img: "tea-obsession.webp"},
-  { name: "Coffee", price: 15, img: "" },
+  { name: "Coffee", price: 15, img: "espresso-feature--1200x900.webp" },
   { name: "Sandwich", price: 40, img: "" },
   { name: "Pav Bhaji", price: 50, img: ""},
   { name: "Paneer Wrap", price: 60, img: " "},
